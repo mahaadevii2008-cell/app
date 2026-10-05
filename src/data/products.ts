@@ -1,6 +1,11 @@
 import { Product } from '../types/store';
+import heroCampaignImg from '../assets/images/hero_fashion_editorial_1791194308281.jpg';
+import blazerImg from '../assets/images/product_wool_blazer_1791194322675.jpg';
+import dressImg from '../assets/images/product_knit_dress_1791194336695.jpg';
+import denimImg from '../assets/images/product_selvedge_denim_1791194348690.jpg';
+import cashmereImg from '../assets/images/product_cashmere_knit_1791194360457.jpg';
 
-export const HERO_CAMPAIGN_IMAGE = '/src/assets/images/hero_fashion_editorial_1791194308281.jpg';
+export const HERO_CAMPAIGN_IMAGE = heroCampaignImg;
 
 export const PRODUCTS: Product[] = [
   {
@@ -9,7 +14,7 @@ export const PRODUCTS: Product[] = [
     category: 'tailoring',
     price: 480,
     originalPrice: 540,
-    image: '/src/assets/images/product_wool_blazer_1791194322675.jpg',
+    image: blazerImg,
     material: '100% Virgin Merino Wool (420 GSM)',
     origin: 'Biella, Northern Italy',
     description: 'Constructed with a structured shoulder, extended lapel, and subtle boxy drape. Cut from heavyweight virgin merino wool woven by heritage mills in Biella. Features hand-stitched horn buttons and double back vents.',
@@ -43,7 +48,7 @@ export const PRODUCTS: Product[] = [
     name: 'Ribbed Tactile Knit Column Dress',
     category: 'dresses',
     price: 360,
-    image: '/src/assets/images/product_knit_dress_1791194336695.jpg',
+    image: dressImg,
     material: '70% Organic Mercerized Cotton, 30% Fine Silk',
     origin: 'Kyoto, Japan',
     description: 'An elongated column silhouette featuring seamless 3D knit engineering. The ribbed gauge offers flexible body-contouring without constriction, finished with a subtle side split for fluid movement.',
@@ -77,7 +82,7 @@ export const PRODUCTS: Product[] = [
     name: 'Relaxed Wide-Leg 14oz Selvedge Denim',
     category: 'denim',
     price: 290,
-    image: '/src/assets/images/product_selvedge_denim_1791194348690.jpg',
+    image: denimImg,
     material: '100% Long-Staple Zimbabwe Cotton (14oz Raw)',
     origin: 'Kojima, Okayama Prefecture',
     description: 'Woven on vintage 1960s Toyoda shuttle looms with a distinctive pink-line selvedge ticker. High-rise waist with an architectural straight leg that drapes cleanly over heavy footwear.',
@@ -110,7 +115,7 @@ export const PRODUCTS: Product[] = [
     name: 'Subtle Gauge Cashmere Mockneck Sweater',
     category: 'knitwear',
     price: 420,
-    image: '/src/assets/images/product_cashmere_knit_1791194360457.jpg',
+    image: cashmereImg,
     material: '100% Grade-A Mongolian Cashmere (2-ply 12-gauge)',
     origin: 'Inner Mongolia & Hawick, Scotland',
     description: 'Spun from the finest underfleece fibers with an average micron diameter of 15.2µm. Designed with dropped shoulder lines and a self-holding mock collar that will never lose its tension.',
@@ -144,7 +149,7 @@ export const PRODUCTS: Product[] = [
     name: 'Storm-Flap Belted Gabardine Trench',
     category: 'outerwear',
     price: 680,
-    image: '/src/assets/images/hero_fashion_editorial_1791194308281.jpg',
+    image: heroCampaignImg,
     material: '100% Compact Egyptian Cotton Gabardine (Water-Repellent)',
     origin: 'Lancashire, England',
     description: 'An expansive long-line silhouette with raglan sleeves and storm yoke shielding against wet winds. Tight micro-twill weave naturally sheds rain without synthetic membrane coatings.',
@@ -176,7 +181,7 @@ export const PRODUCTS: Product[] = [
     name: 'Forward-Pleat Tropical Wool Trousers',
     category: 'tailoring',
     price: 340,
-    image: '/src/assets/images/product_wool_blazer_1791194322675.jpg',
+    image: blazerImg,
     material: '100% High-Twist Tropical Wool (Crease-Resistant)',
     origin: 'Porto, Portugal',
     description: 'Tailored with dual deep forward pleats and extended side tabs, removing the need for a belt. The high-twist yarn breathes effortlessly in warm weather and naturally resists wrinkling during travel.',
@@ -210,7 +215,7 @@ export const PRODUCTS: Product[] = [
     name: 'Minimalist Raw Silk Wrap Shirtdress',
     category: 'dresses',
     price: 395,
-    image: '/src/assets/images/product_knit_dress_1791194336695.jpg',
+    image: dressImg,
     material: '100% Unbleached Mulberry Raw Silk (Noil)',
     origin: 'Lyon, France',
     description: 'Cut from matte textured raw silk noil with distinctive organic slubs. Features an adjustable interior tie and asymmetrical outer belt that wraps organically around the waistline.',
@@ -243,7 +248,7 @@ export const PRODUCTS: Product[] = [
     name: 'Chunky Heavyweight Alpaca Fisherman Cardigan',
     category: 'knitwear',
     price: 460,
-    image: '/src/assets/images/product_cashmere_knit_1791194360457.jpg',
+    image: cashmereImg,
     material: '80% Baby Alpaca, 20% Recycled Polyamide',
     origin: 'Arequipa, Peru',
     description: 'An architectural take on traditional Andean maritime knits. Knit in 5-gauge cable patterns with insulating hollow alpaca fibers that provide immense warmth at a fraction of sheep wool weight.',

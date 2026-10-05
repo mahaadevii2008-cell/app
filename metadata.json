@@ -1,0 +1,6 @@
+{
+  "name": "ATELIER MØDE — Contemporary Clothing & Tailoring",
+  "description": "Minimalist luxury clothing store offering architectural tailoring, pure cashmere knitwear, and selvedge denim.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
